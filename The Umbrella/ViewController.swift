@@ -15,6 +15,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var Temp: UILabel!
     @IBOutlet weak var Date: UILabel!
     @IBOutlet weak var weather: UILabel!
+    @IBOutlet weak var ImageWeather: UIImageView!
     
     //Constants
     let locationManager = CLLocationManager()
@@ -25,7 +26,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "iphone.png")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "iphones.png")!)
         self.callDelegate()
         self.setupLocation()
         
@@ -73,6 +74,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         Temp.text = "\(currentWeather.currentTemp)"
         Date.text = currentWeather.date
         weather.text = currentWeather.weatherType
+        self.image()
+    }
+    func image(){
+        
+        if currentWeather.weatherType == "Clouds"{
+            self.ImageWeather.image = UIImage(named:"cloud.png")
+        }
     }
 
 }

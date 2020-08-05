@@ -54,6 +54,7 @@
                     <connections>
                         <outlet property="CityName" destination="NCc-PN-O9P" id="G3s-ff-DKJ"/>
                         <outlet property="Date" destination="3pI-wg-sId" id="Tmu-fC-cdM"/>
+                        <outlet property="ImageWeather" destination="MOi-LQ-FTd" id="rA3-ci-hnw"/>
                         <outlet property="Temp" destination="Fb7-pS-KWV" id="dsS-Qc-iP5"/>
                         <outlet property="weather" destination="UQg-wb-GPh" id="wj2-bR-cnM"/>
                     </connections>
