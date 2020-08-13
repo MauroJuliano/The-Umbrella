@@ -26,7 +26,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "iphones.png")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "wintersnow.png")!)
         self.callDelegate()
         self.setupLocation()
         
