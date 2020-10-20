@@ -71,7 +71,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func updateUI(){
         CityName.text = currentWeather.cityName
-        Temp.text = "\(currentWeather.currentTemp)"
+        Temp.text = "\(currentWeather.currentTemp)°"
         Date.text = currentWeather.date
         weather.text = currentWeather.weatherType
         self.image()
