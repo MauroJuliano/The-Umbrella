@@ -8,9 +8,12 @@
 
 import UIKit
 import CoreLocation
+import DynamicBlurView
+
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     //Outlets
+    @IBOutlet var backgroundImage: UIImageView!
     @IBOutlet weak var CityName: UILabel!
     @IBOutlet weak var Temp: UILabel!
     @IBOutlet weak var Date: UILabel!
@@ -26,14 +29,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "wintersnow.png")!)
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "wintersnow.png")!)
+        self.view.backgroundColor = UIColor.black
         self.callDelegate()
         self.setupLocation()
         
         currentWeather = CurrentWeather()
-        
+        imageBlur()
        
         // Do any additional setup after loading the view.
+    }
+    func imageBlur(){
+        
+        let blurView = DynamicBlurView(frame: backgroundImage.bounds)
+        blurView.blurRadius = 3.5
+        backgroundImage.addSubview(blurView)
+        
     }
     override func viewDidAppear(_ animated: Bool) {
         locationAutoCheck()
@@ -79,7 +90,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func image(){
         
         if currentWeather.weatherType == "Clouds"{
-            self.ImageWeather.image = UIImage(named:"cloud.png")
+            self.ImageWeather.image = UIImage(systemName:"cloud")
+        } else if currentWeather.weatherType == "Rain"{
+            self.ImageWeather.image = UIImage(systemName:"cloud.rain")
+        }else if currentWeather.weatherType == "snow"{
+            self.ImageWeather.image = UIImage(systemName:"snow")
+        }else if currentWeather.weatherType == "sun"{
+            self.ImageWeather.image = UIImage(systemName:"sun.min")
         }
     }
 

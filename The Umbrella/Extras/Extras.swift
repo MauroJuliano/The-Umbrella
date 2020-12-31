@@ -8,8 +8,8 @@
 
 import Foundation
 
-//let API_URL = "http://api.openweathermap.org/data/2.5/weather?lat=\(Locations.sharedInstance.latitude!)&lon=\(Locations.sharedInstance.longitude!)&appid=a0c484c7ab240f57f26aea649e95fd64"
+let API_URL = "http://api.openweathermap.org/data/2.5/weather?lat=\(Locations.sharedInstance.latitude!)&lon=\(Locations.sharedInstance.longitude!)&appid=a0c484c7ab240f57f26aea649e95fd64"
 
-let API_URL = "http://api.openweathermap.org/data/2.5/weather?lat=\(    49.246292)&lon=\(-123.116226)&appid=a0c484c7ab240f57f26aea649e95fd64"
+//let API_URL = "http://api.openweathermap.org/data/2.5/weather?lat=\(    49.246292)&lon=\(-123.116226)&appid=a0c484c7ab240f57f26aea649e95fd64"
 
 typealias DownloadComplete = () -> ()
