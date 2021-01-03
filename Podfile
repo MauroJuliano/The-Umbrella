@@ -9,6 +9,10 @@ pod 'SwiftyJSON', '~> 4.0'
 pod "DynamicBlurView"
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
   # Pods for The Umbrella
 
   target 'The UmbrellaTests' do

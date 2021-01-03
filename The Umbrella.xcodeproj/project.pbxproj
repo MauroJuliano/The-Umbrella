@@ -13,8 +13,10 @@
 		4C9545FD25A18F16000719C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9545FC25A18F16000719C2 /* RegisterViewController.swift */; };
 		4C95461B25A1A015000719C2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C95461A25A1A015000719C2 /* Home.storyboard */; };
 		4C95462025A1A023000719C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95461F25A1A023000719C2 /* HomeViewController.swift */; };
+		4C95468F25A1B554000719C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C95468E25A1B554000719C2 /* GoogleService-Info.plist */; };
+		4C9546B225A1BE66000719C2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9546B125A1BE66000719C2 /* Login.storyboard */; };
+		4C9546B725A1BE76000719C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9546B625A1BE76000719C2 /* LoginViewController.swift */; };
 		4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */; };
-		4CA9E2C624D9F7F800938F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */; };
 		4CA9E2C824D9F7F800938F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C724D9F7F800938F84 /* ViewController.swift */; };
 		4CA9E2CB24D9F7F800938F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2C924D9F7F800938F84 /* Main.storyboard */; };
 		4CA9E2CD24D9F7F900938F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */; };
@@ -56,9 +58,11 @@
 		4C9545FC25A18F16000719C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4C95461A25A1A015000719C2 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		4C95461F25A1A023000719C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C95468E25A1B554000719C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C9546B125A1BE66000719C2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4C9546B625A1BE76000719C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4CA9E2C024D9F7F800938F84 /* The Umbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Umbrella.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CA9E2C724D9F7F800938F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CA9E2CA24D9F7F800938F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,6 +164,15 @@
 			path = Launch;
 			sourceTree = "<group>";
 		};
+		4C9546B025A1BE52000719C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C9546B125A1BE66000719C2 /* Login.storyboard */,
+				4C9546B625A1BE76000719C2 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		4CA9E2B724D9F7F800938F84 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +198,7 @@
 		4CA9E2C224D9F7F800938F84 /* The Umbrella */ = {
 			isa = PBXGroup;
 			children = (
+				4C9546B025A1BE52000719C2 /* Login */,
 				4C95461925A19FFC000719C2 /* Launch */,
 				4C9545F325A18DC3000719C2 /* Register */,
 				4C9545F225A18DB7000719C2 /* Search */,
@@ -192,8 +206,8 @@
 				4CF1882B24DB3680001C1D33 /* Extensions */,
 				4CF1882524DB298F001C1D33 /* Extras */,
 				4CA9E2C324D9F7F800938F84 /* AppDelegate.swift */,
-				4CA9E2C524D9F7F800938F84 /* SceneDelegate.swift */,
 				4CA9E2CC24D9F7F900938F84 /* Assets.xcassets */,
+				4C95468E25A1B554000719C2 /* GoogleService-Info.plist */,
 				4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */,
 				4CA9E2D124D9F7FA00938F84 /* Info.plist */,
 				4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */,
@@ -357,9 +371,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9546B225A1BE66000719C2 /* Login.storyboard in Resources */,
 				4CA9E2D024D9F7F900938F84 /* LaunchScreen.storyboard in Resources */,
 				4CA9E2CD24D9F7F900938F84 /* Assets.xcassets in Resources */,
 				4C1EB6C1259E4B54006B3ED4 /* search.storyboard in Resources */,
+				4C95468F25A1B554000719C2 /* GoogleService-Info.plist in Resources */,
 				4C95461B25A1A015000719C2 /* Home.storyboard in Resources */,
 				4CA9E2CB24D9F7F800938F84 /* Main.storyboard in Resources */,
 				4C9545F825A18EFF000719C2 /* Register.storyboard in Resources */,
@@ -531,8 +547,8 @@
 				4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */,
 				4C95462025A1A023000719C2 /* HomeViewController.swift in Sources */,
 				4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */,
-				4CA9E2C624D9F7F800938F84 /* SceneDelegate.swift in Sources */,
 				4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */,
+				4C9546B725A1BE76000719C2 /* LoginViewController.swift in Sources */,
 				4CF1882F24DB42B4001C1D33 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1552,3 +1552,126 @@ Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.debug.xc
 Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.release.xcconfig
 *.plist
 *.swift
+Pods/Headers/Private/Firebase/Firebase.h
+Pods/Headers/Public/Firebase/Firebase.h
+Pods/Manifest.lock
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/Firebase.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseAnalytics.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseAuth.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseCore.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseCoreDiagnostics.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseDatabase.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseInstallations.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/FirebaseStorage.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/GoogleAppMeasurement.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/GoogleDataTransport.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/GoogleUtilities.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/GTMSessionFetcher.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/leveldb-library.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/nanopb.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/PromisesObjC.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Target Support Files/Firebase/Firebase.debug.xcconfig
+Pods/Target Support Files/Firebase/Firebase.release.xcconfig
+Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.debug.xcconfig
+Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.release.xcconfig
+Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h
+Pods/Target Support Files/FirebaseAuth/FirebaseAuth.debug.xcconfig
+Pods/Target Support Files/FirebaseAuth/FirebaseAuth.modulemap
+Pods/Target Support Files/FirebaseAuth/FirebaseAuth.release.xcconfig
+Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h
+Pods/Target Support Files/FirebaseCore/FirebaseCore.debug.xcconfig
+Pods/Target Support Files/FirebaseCore/FirebaseCore.modulemap
+Pods/Target Support Files/FirebaseCore/FirebaseCore.release.xcconfig
+Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics-umbrella.h
+Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.debug.xcconfig
+Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.modulemap
+Pods/Target Support Files/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.release.xcconfig
+Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-umbrella.h
+Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase.debug.xcconfig
+Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase.modulemap
+Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase.release.xcconfig
+Pods/Target Support Files/FirebaseInstallations/FirebaseInstallations-umbrella.h
+Pods/Target Support Files/FirebaseInstallations/FirebaseInstallations.debug.xcconfig
+Pods/Target Support Files/FirebaseInstallations/FirebaseInstallations.modulemap
+Pods/Target Support Files/FirebaseInstallations/FirebaseInstallations.release.xcconfig
+Pods/Target Support Files/FirebaseStorage/FirebaseStorage-umbrella.h
+Pods/Target Support Files/FirebaseStorage/FirebaseStorage.debug.xcconfig
+Pods/Target Support Files/FirebaseStorage/FirebaseStorage.modulemap
+Pods/Target Support Files/FirebaseStorage/FirebaseStorage.release.xcconfig
+Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.debug.xcconfig
+Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.release.xcconfig
+Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport-umbrella.h
+Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport.debug.xcconfig
+Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport.modulemap
+Pods/Target Support Files/GoogleDataTransport/GoogleDataTransport.release.xcconfig
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities-umbrella.h
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.debug.xcconfig
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.modulemap
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.release.xcconfig
+Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch
+Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h
+Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.debug.xcconfig
+Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap
+Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.release.xcconfig
+Pods/Target Support Files/leveldb-library/leveldb-library-prefix.pch
+Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h
+Pods/Target Support Files/leveldb-library/leveldb-library.debug.xcconfig
+Pods/Target Support Files/leveldb-library/leveldb-library.modulemap
+Pods/Target Support Files/leveldb-library/leveldb-library.release.xcconfig
+Pods/Target Support Files/nanopb/nanopb-prefix.pch
+Pods/Target Support Files/nanopb/nanopb-umbrella.h
+Pods/Target Support Files/nanopb/nanopb.debug.xcconfig
+Pods/Target Support Files/nanopb/nanopb.modulemap
+Pods/Target Support Files/nanopb/nanopb.release.xcconfig
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-acknowledgements.markdown
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-acknowledgements.plist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks.sh
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.release.xcconfig
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-acknowledgements.markdown
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-acknowledgements.plist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks.sh
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella.debug.xcconfig
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella.release.xcconfig
+Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.debug.xcconfig
+Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.release.xcconfig
+Pods/Target Support Files/PromisesObjC/PromisesObjC-umbrella.h
+Pods/Target Support Files/PromisesObjC/PromisesObjC.debug.xcconfig
+Pods/Target Support Files/PromisesObjC/PromisesObjC.modulemap
+Pods/Target Support Files/PromisesObjC/PromisesObjC.release.xcconfig
+Pods/Manifest.lock
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/lestad.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-acknowledgements.markdown
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-acknowledgements.plist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests-frameworks.sh
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.debug.xcconfig
+Pods/Target Support Files/Pods-The Umbrella-The UmbrellaUITests/Pods-The Umbrella-The UmbrellaUITests.release.xcconfig
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-acknowledgements.markdown
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-acknowledgements.plist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella-frameworks.sh
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella.debug.xcconfig
+Pods/Target Support Files/Pods-The Umbrella/Pods-The Umbrella.release.xcconfig
+Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.debug.xcconfig
+Pods/Target Support Files/Pods-The UmbrellaTests/Pods-The UmbrellaTests.release.xcconfig
+*.lock
+*.xcfilelist
+*.markdown
