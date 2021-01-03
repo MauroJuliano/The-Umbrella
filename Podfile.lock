@@ -1,24 +1,37 @@
 PODS:
-  - Alamofire (5.2.2)
+  - Alamofire (5.4.1)
   - DynamicBlurView (5.0.3)
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - DynamicBlurView
+  - GoogleMaps
+  - GooglePlaces
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - DynamicBlurView
+    - GoogleMaps
+    - GooglePlaces
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   DynamicBlurView: b57e2f6aa33f85b2bcca272265162a3c7c5cc499
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 82bd3b4b01e0b99679da9ca63b96781a7629e04c
+PODFILE CHECKSUM: a48d22be4473ab309bc0c1f9713ab717311ddf85
 
 COCOAPODS: 1.10.0
