@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //AIzaSyC5N5nlZ-lYDvifnJPK9SjXbg-ItTLDi_g
+        
+        GMSPlacesClient.provideAPIKey("AIzaSyDXg7Q7lDqpSHCrDVflFf-MoQY6eu9Xv6U")
+       
+        let story = UIStoryboard(name: "Home", bundle:nil)
+        let vc = story.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+        UIApplication.shared.windows.first?.rootViewController = vc
+        UIApplication.shared.windows.first?.makeKeyAndVisible()
+        
         return true
     }
 
