@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class HomeViewController: UIViewController {
 
     @IBOutlet var connectView: UIView!
@@ -18,6 +18,11 @@ class HomeViewController: UIViewController {
         connectView.roundCorners(.topLeft, radius: 60)
         // Do any additional setup after loading the view.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        if let uid = Auth.auth().currentUser?.uid {
+          goToFeed()
+        }
+    }
     
     @IBAction func connectButton(_ sender: Any) {
         if let vc = UIStoryboard(name: "Login", bundle: nil).instantiateInitialViewController() as? LoginViewController {
@@ -25,7 +30,12 @@ class HomeViewController: UIViewController {
             present(vc, animated: true, completion: nil)
         }
     }
-
+    func goToFeed(){
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? ViewController{
+            vc.modalPresentationStyle = .fullScreen
+            present(vc, animated: true, completion: nil)
+        }
+    }
 }
 extension UIView {
 

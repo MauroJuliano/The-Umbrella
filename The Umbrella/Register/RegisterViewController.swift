@@ -16,11 +16,12 @@ class RegisterViewController: UIViewController {
     @IBOutlet var emailTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     @IBOutlet var confirmPassword: UITextField!
+    
     let ref: DatabaseReference = Database.database().reference()
     let uid = Auth.auth().currentUser?.uid
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        topView.roundCorners(.bottomLeft, radius: 60)
         buttonView.roundCorners(.topLeft, radius: 60)
         // Do any additional setup after loading the view.
     }

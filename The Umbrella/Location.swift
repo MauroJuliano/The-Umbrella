@@ -15,5 +15,4 @@ class Locations {
     var longitude: Double!
     var latitude: Double!
     
-    
 }

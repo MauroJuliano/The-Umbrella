@@ -9,12 +9,15 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
-import MapKit
+//import MapKit
 import DynamicBlurView
+import FirebaseAuth
+import FirebaseDatabase
 
 class SearchViewController: UIViewController, UISearchBarDelegate {
 
     var resultsViewController: GMSAutocompleteResultsViewController?
+    let ref: DatabaseReference = Database.database().reference()
     var searchController: UISearchController?
     @IBOutlet var viewBlur: UIView!
     @IBOutlet var topView: UIView!
@@ -46,7 +49,6 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
             searchController?.searchResultsUpdater = resultsViewController
 
         let searchBar = searchController!.searchBar
-        
         searchBar.placeholder = "Search for places"
         navigationItem.titleView = searchController?.searchBar
         definesPresentationContext = true
@@ -59,24 +61,33 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         
         searchBar.delegate = self
     }
+    
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         dismiss(animated: true, completion: nil)
     }
-    
-    @IBAction func NewLocation(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    
 }
 
 extension SearchViewController: GMSAutocompleteResultsViewControllerDelegate  {
-    func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didAutocompleteWith place: GMSPlace) {
-        print(place.name)
-        print(place.coordinate)
-        //implement database
-    }
     
+    func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didAutocompleteWith place: GMSPlace) {
+        
+        if let uid = Auth.auth().currentUser?.uid {
+            
+            if let placename = place.name {
+                let lat = place.coordinate.latitude
+                let long = place.coordinate.longitude
+                
+                let dict: [String: Any] = [
+                    "name": "\(placename)",
+                    "latitude": lat,
+                    "longitude": long,
+                    "userID": uid
+                ]
+                ref.child("locations").child(uid).childByAutoId().updateChildValues(dict)
+            }
+        }
+    }
+ 
     func resultsController(_ resultsController: GMSAutocompleteResultsViewController, didFailAutocompleteWithError error: Error) {
         //
     }

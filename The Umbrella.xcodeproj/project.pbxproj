@@ -23,6 +23,10 @@
 		4CA9E2D024D9F7F900938F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */; };
 		4CA9E2DB24D9F7FA00938F84 /* The_UmbrellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2DA24D9F7FA00938F84 /* The_UmbrellaTests.swift */; };
 		4CA9E2E624D9F7FA00938F84 /* The_UmbrellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9E2E524D9F7FA00938F84 /* The_UmbrellaUITests.swift */; };
+		4CCC636025A269EB009C42FC /* LocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC635F25A269EB009C42FC /* LocationCollectionViewCell.swift */; };
+		4CCC636525A26F0A009C42FC /* dataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC636425A26F0A009C42FC /* dataRequest.swift */; };
+		4CCC636A25A2704C009C42FC /* locationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC636925A2704C009C42FC /* locationModel.swift */; };
+		4CCC636F25A27180009C42FC /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC636E25A27180009C42FC /* mainViewController.swift */; };
 		4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882624DB29A0001C1D33 /* Extras.swift */; };
 		4CF1882924DB2EC5001C1D33 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */; };
 		4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1882C24DB368F001C1D33 /* extensions.swift */; };
@@ -74,6 +78,10 @@
 		4CA9E2E124D9F7FA00938F84 /* The UmbrellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The UmbrellaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA9E2E524D9F7FA00938F84 /* The_UmbrellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_UmbrellaUITests.swift; sourceTree = "<group>"; };
 		4CA9E2E724D9F7FA00938F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCC635F25A269EB009C42FC /* LocationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCollectionViewCell.swift; sourceTree = "<group>"; };
+		4CCC636425A26F0A009C42FC /* dataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataRequest.swift; sourceTree = "<group>"; };
+		4CCC636925A2704C009C42FC /* locationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationModel.swift; sourceTree = "<group>"; };
+		4CCC636E25A27180009C42FC /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		4CF1882624DB29A0001C1D33 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 		4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		4CF1882C24DB368F001C1D33 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
@@ -132,7 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				4CA9E2C924D9F7F800938F84 /* Main.storyboard */,
+				4CCC636E25A27180009C42FC /* mainViewController.swift */,
 				4CA9E2C724D9F7F800938F84 /* ViewController.swift */,
+				4CCC636425A26F0A009C42FC /* dataRequest.swift */,
+				4CCC635F25A269EB009C42FC /* LocationCollectionViewCell.swift */,
+				4CCC636925A2704C009C42FC /* locationModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -542,12 +554,16 @@
 			files = (
 				4CA9E2C824D9F7F800938F84 /* ViewController.swift in Sources */,
 				4CF1882924DB2EC5001C1D33 /* CurrentWeather.swift in Sources */,
+				4CCC636025A269EB009C42FC /* LocationCollectionViewCell.swift in Sources */,
+				4CCC636525A26F0A009C42FC /* dataRequest.swift in Sources */,
 				4C1EB6C6259E4B6B006B3ED4 /* SearchViewController.swift in Sources */,
 				4C9545FD25A18F16000719C2 /* RegisterViewController.swift in Sources */,
 				4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */,
 				4C95462025A1A023000719C2 /* HomeViewController.swift in Sources */,
 				4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */,
+				4CCC636F25A27180009C42FC /* mainViewController.swift in Sources */,
 				4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */,
+				4CCC636A25A2704C009C42FC /* locationModel.swift in Sources */,
 				4C9546B725A1BE76000719C2 /* LoginViewController.swift in Sources */,
 				4CF1882F24DB42B4001C1D33 /* Location.swift in Sources */,
 			);

@@ -71,4 +71,36 @@ class CurrentWeather{
             completed()
     }
     }
+    
+    func downloadPreWeather(latitude: Double, longitude: Double, completed: @escaping DownloadComplete){
+
+        var URL2 = "http://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=a0c484c7ab240f57f26aea649e95fd64"
+
+        AF.request(URL2).responseJSON { (response) in
+            
+            let result = response.result
+            let jsonObject = JSON(response.data!)
+            self._cityName = jsonObject["name"].stringValue
+            self._weatherType = jsonObject["weather"][0]["main"].stringValue
+
+            let tempDate=jsonObject["dt"].double
+            let convertedUnixDate = Date(timeIntervalSince1970: tempDate!)
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateStyle = .none
+            dateFormatter.timeStyle = .short
+        
+            let currentDate = dateFormatter.string(from: convertedUnixDate)
+            self._date = currentDate
+
+            let downloadedTemp = jsonObject["main"]["temp"].double
+            let tmp = downloadedTemp! - 273.15
+            self._currentTemp = Int(round(tmp))
+
+            print(self._cityName!)
+            print(self._date!)
+            print(self._currentTemp!)
+            print(self._weatherType!)
+            completed()
+    }
+    }
 }
