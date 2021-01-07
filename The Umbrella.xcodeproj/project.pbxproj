@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C1EB6C1259E4B54006B3ED4 /* search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1EB6C0259E4B54006B3ED4 /* search.storyboard */; };
 		4C1EB6C6259E4B6B006B3ED4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EB6C5259E4B6B006B3ED4 /* SearchViewController.swift */; };
+		4C3D9B6E25A6787A00057F72 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D9B6D25A6787A00057F72 /* ColorExtension.swift */; };
 		4C9545F825A18EFF000719C2 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9545F725A18EFF000719C2 /* Register.storyboard */; };
 		4C9545FD25A18F16000719C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9545FC25A18F16000719C2 /* RegisterViewController.swift */; };
 		4C95461B25A1A015000719C2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C95461A25A1A015000719C2 /* Home.storyboard */; };
@@ -58,6 +59,7 @@
 		321D4E82DD14AE71CDE8260B /* Pods_The_Umbrella_The_UmbrellaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Umbrella_The_UmbrellaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1EB6C0259E4B54006B3ED4 /* search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = search.storyboard; sourceTree = "<group>"; };
 		4C1EB6C5259E4B6B006B3ED4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4C3D9B6D25A6787A00057F72 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		4C9545F725A18EFF000719C2 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		4C9545FC25A18F16000719C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4C95461A25A1A015000719C2 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				4CF1882624DB29A0001C1D33 /* Extras.swift */,
+				4C3D9B6D25A6787A00057F72 /* ColorExtension.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				4CA9E2C424D9F7F800938F84 /* AppDelegate.swift in Sources */,
 				4C95462025A1A023000719C2 /* HomeViewController.swift in Sources */,
 				4CF1882724DB29A0001C1D33 /* Extras.swift in Sources */,
+				4C3D9B6E25A6787A00057F72 /* ColorExtension.swift in Sources */,
 				4CCC636F25A27180009C42FC /* mainViewController.swift in Sources */,
 				4CF1882D24DB368F001C1D33 /* extensions.swift in Sources */,
 				4CCC636A25A2704C009C42FC /* locationModel.swift in Sources */,

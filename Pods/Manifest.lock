@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (5.4.1)
   - DynamicBlurView (5.0.3)
+  - EMTNeumorphicView (1.0.4)
   - Firebase/Analytics (7.3.0):
     - Firebase/Core
   - Firebase/Auth (7.3.0):
@@ -98,6 +99,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - DynamicBlurView
+  - EMTNeumorphicView
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
@@ -110,6 +112,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - DynamicBlurView
+    - EMTNeumorphicView
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -132,6 +135,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   DynamicBlurView: b57e2f6aa33f85b2bcca272265162a3c7c5cc499
+  EMTNeumorphicView: cb5e92953e43b1872ab47fefd451a9ce0c16fc77
   Firebase: 26223c695fe322633274198cb19dca8cb7e54416
   FirebaseAnalytics: 2580c2d62535ae7b644143d48941fcc239ea897a
   FirebaseAuth: c224a0cf1afa0949bd5c7bfcf154b4f5ce8ddef2
@@ -151,6 +155,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: efc83a13bc12896f251d5bd7c907fadb83a0c1a9
+PODFILE CHECKSUM: 00ae6e73327a4351570b0075d3a6631926cc72a4
 
 COCOAPODS: 1.10.0

@@ -13,6 +13,7 @@ pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
 pod 'Firebase/Database'
+pod 'EMTNeumorphicView'
   # Pods for The Umbrella
 
   target 'The UmbrellaTests' do
