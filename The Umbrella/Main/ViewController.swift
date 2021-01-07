@@ -16,6 +16,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     //Outlets
     @IBOutlet var locationsCollection: UICollectionView!
     
+    @IBOutlet var userImage: UIImageView!
     @IBOutlet var cardBackground: UIView!
     @IBOutlet var backgroundImage: UIImageView!
     @IBOutlet weak var CityName: UILabel!
@@ -45,6 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Do any additional setup after loading the view.
     }
     func setupUI(){
+        userImage.roundCorners(.allCorners, radius: 15)
         cardBackground.roundCorners(.allCorners, radius: 15)
         let lilas = UIColor(hexString: "#6A6A93")
         CityName.textColor = lilas
