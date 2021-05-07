@@ -46,8 +46,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Do any additional setup after loading the view.
     }
     func setupUI(){
-        userImage.roundCorners(.allCorners, radius: 15)
-        cardBackground.roundCorners(.allCorners, radius: 15)
+        //userImage.roundCorners(.allCorners, radius: 15)
+        //cardBackground.roundCorners(.allCorners, radius: 20)
         let lilas = UIColor(hexString: "#6A6A93")
         CityName.textColor = lilas
     }
@@ -107,7 +107,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func updateUI(){
         CityName.text = currentWeather.cityName
-        Temp.text = "\(currentWeather.currentTemp)°"
+        Temp.text = " \(currentWeather.currentTemp)°"
         let weatherType = currentWeather.weatherType
         
         if weatherType == "Rain"{
@@ -129,7 +129,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.ImageWeather.image = UIImage(named:"rain")
         }else if currentWeather.weatherType == "snow"{
             self.ImageWeather.image = UIImage(named:"snowing")
-        }else if currentWeather.weatherType == "sun"{
+        }else if currentWeather.weatherType == "Clear"{
             self.ImageWeather.image = UIImage(named:"sun1")
         }
     }
