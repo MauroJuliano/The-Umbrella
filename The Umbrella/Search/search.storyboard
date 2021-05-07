@@ -18,8 +18,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yc7-lx-pxC">
-                                <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liquid" translatesAutoresizingMaskIntoConstraints="NO" id="OxZ-Rr-Oi1">
+                                        <rect key="frame" x="107" y="-152" width="448" height="474"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="474" id="1P1-Tm-084"/>
+                                            <constraint firstAttribute="width" constant="448" id="4Ez-Ea-XXS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liquid2" translatesAutoresizingMaskIntoConstraints="NO" id="7Bz-Ph-6Ul">
+                                        <rect key="frame" x="-68" y="509" width="407" height="410"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="407" id="D2F-hp-czO"/>
+                                            <constraint firstAttribute="height" constant="410" id="px7-kM-OwX"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.66041998970000004" green="0.92005396770000003" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="OxZ-Rr-Oi1" secondAttribute="trailing" constant="-141" id="D16-78-iGH"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Bz-Ph-6Ul" secondAttribute="bottom" constant="-115" id="gly-fw-Hdv"/>
+                                    <constraint firstItem="OxZ-Rr-Oi1" firstAttribute="top" secondItem="Yc7-lx-pxC" secondAttribute="top" constant="-152" id="gud-lp-k8h"/>
+                                    <constraint firstItem="7Bz-Ph-6Ul" firstAttribute="leading" secondItem="Yc7-lx-pxC" secondAttribute="leading" constant="-68" id="zp5-Ge-fNG"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7c-r2-ScM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -41,13 +63,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2vn-Q3-GPi"/>
                         <constraints>
+                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="leading" secondItem="2vn-Q3-GPi" secondAttribute="leading" id="37N-z8-68W"/>
                             <constraint firstItem="n7c-r2-ScM" firstAttribute="top" secondItem="w6Z-Rm-vlx" secondAttribute="top" id="EMN-YM-e1A"/>
-                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="leading" secondItem="2vn-Q3-GPi" secondAttribute="leading" id="NpI-QY-nGZ"/>
-                            <constraint firstAttribute="bottom" secondItem="Yc7-lx-pxC" secondAttribute="bottom" id="RpE-3I-4rF"/>
+                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="top" secondItem="2vn-Q3-GPi" secondAttribute="top" constant="48" id="TNZ-0W-SVS"/>
+                            <constraint firstAttribute="bottom" secondItem="Yc7-lx-pxC" secondAttribute="bottom" id="XWC-jk-BMP"/>
                             <constraint firstItem="n7c-r2-ScM" firstAttribute="leading" secondItem="2vn-Q3-GPi" secondAttribute="leading" id="Y3f-7m-TiD"/>
-                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="trailing" secondItem="2vn-Q3-GPi" secondAttribute="trailing" id="k9P-2g-DGF"/>
+                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="trailing" secondItem="2vn-Q3-GPi" secondAttribute="trailing" id="n5G-5P-Ff7"/>
                             <constraint firstItem="n7c-r2-ScM" firstAttribute="trailing" secondItem="2vn-Q3-GPi" secondAttribute="trailing" id="nA6-72-khI"/>
-                            <constraint firstItem="Yc7-lx-pxC" firstAttribute="top" secondItem="n7c-r2-ScM" secondAttribute="bottom" id="uhK-3Y-Ide"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dCj-0Y-ufC"/>
@@ -63,6 +85,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="liquid" width="4756" height="3535"/>
+        <image name="liquid2" width="3535" height="4756"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

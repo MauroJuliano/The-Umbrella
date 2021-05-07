@@ -113,7 +113,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if weatherType == "Rain"{
             weather.text = "It's Raining Now \n Don't forget your umbrella !\n"
         }else if weatherType == "Clouds"{
-            weather.text = "It's Clouding now"
+            weather.text = "It's Cloudy Now"
         }else if weatherType == "Clear"{
             weather.text = "It's Sunning Now \n Don't forget to use sunscreen"
         }else if weatherType == "Snow"{

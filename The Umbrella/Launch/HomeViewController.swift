@@ -10,11 +10,13 @@ import UIKit
 import FirebaseAuth
 class HomeViewController: UIViewController {
 
+    @IBOutlet var weatherLabel: UILabel!
     @IBOutlet var connectView: UIView!
     @IBOutlet var connectButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        weatherLabel.text = "Check The Umbrella \n to be prepared for any \n weather"
         connectView.roundCorners(.topLeft, radius: 60)
         // Do any additional setup after loading the view.
     }

@@ -305,7 +305,7 @@
                         <outlet property="Temp" destination="Fb7-pS-KWV" id="dsS-Qc-iP5"/>
                         <outlet property="cardBackground" destination="aQ7-pY-KyN" id="RsM-NR-Puw"/>
                         <outlet property="locationsCollection" destination="z9M-lV-QKm" id="glx-2H-ppc"/>
-                        <outlet property="userImage" destination="Sdu-Rm-h9a" id="HTm-8w-gj1"/>
+                        <outlet property="userImage" destination="Sdu-Rm-h9a" id="Qsz-1u-wb2"/>
                         <outlet property="weather" destination="UQg-wb-GPh" id="wj2-bR-cnM"/>
                     </connections>
                 </viewController>

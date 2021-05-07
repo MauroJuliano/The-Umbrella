@@ -224,8 +224,6 @@
 				4C95468E25A1B554000719C2 /* GoogleService-Info.plist */,
 				4CA9E2CE24D9F7F900938F84 /* LaunchScreen.storyboard */,
 				4CA9E2D124D9F7FA00938F84 /* Info.plist */,
-				4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */,
-				4CF1882E24DB42B4001C1D33 /* Location.swift */,
 			);
 			path = "The Umbrella";
 			sourceTree = "<group>";
@@ -252,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				4CF1882624DB29A0001C1D33 /* Extras.swift */,
+				4CF1882824DB2EC5001C1D33 /* CurrentWeather.swift */,
+				4CF1882E24DB42B4001C1D33 /* Location.swift */,
 				4C3D9B6D25A6787A00057F72 /* ColorExtension.swift */,
 			);
 			path = Extras;

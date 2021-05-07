@@ -29,8 +29,8 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
         super.viewDidLoad()
         searchB.delegate = self
         searchB.showsCancelButton = true
-        viewBlur.backgroundColor = UIColor(patternImage: UIImage(named: "wintersnow.png")!)
-        setupBlur()
+        //viewBlur.backgroundColor = UIColor(patternImage: UIImage(named: "wintersnow.png")!)
+       // setupBlur()
         setupSearchController()
     }
     
